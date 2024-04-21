@@ -3,3 +3,25 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+
+api_login:
+    path: /api/login
+    controller: App\Controller\SecurityController::login
+    methods: ['POST']
+
+app_logout:
+    path: /api/logout
+    controller: App\Controller\SecurityController::logout
+    methods: ['POST']
+
+_security_logout:
+    path: app_logout
+#auth:
+#    path: /auth
+#    methods: ['POST']
+#
+#register:
+#    path: /api/users
+#    controller: App\Controller\User\UserCreate::class
+#    methods: POST
