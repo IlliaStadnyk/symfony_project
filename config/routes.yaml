@@ -17,11 +17,3 @@ app_logout:
 
 _security_logout:
     path: app_logout
-#auth:
-#    path: /auth
-#    methods: ['POST']
-#
-#register:
-#    path: /api/users
-#    controller: App\Controller\User\UserCreate::class
-#    methods: POST

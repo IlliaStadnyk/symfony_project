@@ -16,7 +16,6 @@ class UserCreateController extends ApiController
     public function __invoke(Request $request, EntityManagerInterface $entityManager)
     {
         $userData = json_decode($request->getContent(), true);
-//        $newUser = $userData->toArray();
 
         $user = new User();
         $user->setUsername($userData['username']);
