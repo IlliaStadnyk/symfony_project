@@ -21,7 +21,11 @@ Teraz jako do zalogowanego użytkownika. Pan/Pani ma dostęp do /api/posts oraz 
 
 GET /api/posts - wydanie wszystkie posty z localnej bazy danych
 
-POST /api/posts - twirzy nowy post dla zalogowanego użytkonika
+POST /api/posts - twirzy nowy post dla zalogowanego użytkonika 
+{
+    "title":"amogus",
+    "body":"sus"
+}
 
 DETELE /api/posts/{id} - usuwa jeden post jeszeli zalogowany użytkownik jest jego właścicielem.
 
