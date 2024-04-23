@@ -1,7 +1,9 @@
-# symfony_project
+
 # symfony_project
 
 Project jest dostępny za adresem http://3.143.224.54/api (Api platform).
+
+Strona główna dostępna za adresem : http://3.143.224.54
 
 Dla zapisywania danech w loclną bazą danych z API REST https://jsonplaceholder.typicode.com polecenie konsoli zostało utworzone w folderze src/Command/FetchPostsCommand.
 (Na serverze http://3.143.224.54/api już są pobrane posty i użykowniki)
